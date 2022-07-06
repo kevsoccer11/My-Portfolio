@@ -1,1 +1,124 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+}
+#hero-section {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url("https://images.unsplash.com/photo-1487338875411-8880f74114a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+  color:white;
+}
+#hero-text {
+  color: white;
+}
+.rounded-circle {
+  height: 200px;
+  text-align: center;
+}
+.profile-pic {
+  border: 10px solid rgba(0, 0, 0, .2);
+}
+.navbar{
+  background-color: #384469;
+}
+.navbar a {
+  color: #ffffff;
+}
+.navbar-nav > .nav-item > .active {
+  color: #000000;
+}
+.navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
+.bi-globe:hover {
+  color: #000000;
+}
+#mission-section, #inspiration-section, #contact-section {
+  background-color: #384469;
+  color:white;
+}
+#mission-section, #skills-section, #inspiration-section, #contact-section, #portfolio-section {
+  padding: 50px;
+}
+#skills-section, #portfolio-section, #footer-section{
+  background-color: #ededfb;
+  color: black;
+}
+
+#skills-section img {
+  width:100px;
+  padding: 40px 0 40px 0;
+}
+.carousel {
+  width: 90%;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  width: 80vw;
+}
+.carousel-caption{ 
+  z-index:1;
+}
+.carousel-caption {
+  color: white;
+}
+.carousel-caption p {
+  padding:0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,.5);
+}
+#contact-section i {
+  font-size: 50px;
+  color: white;
+}
+#contact-section i:hover{
+  color:#1289ed;
+}
+#footer-section {
+  padding: 10px;
+}
+/* SIZZLE : 
+I added a portfolio section to display projects that have been completed*/
+.view-project-btn{
+  color:white;
+  background-color: #384469;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.view-project-btn:hover{
+  background-color: #dcdcff;
+  border: 1px solid #384469;
+  color: black;
+}
+.card{
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
